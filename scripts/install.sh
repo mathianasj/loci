@@ -35,6 +35,7 @@ case ${distro} in
             patch \
             redhat-lsb-core \
             sudo \
+            centos-release-ceph-nautilus \
             ${rpm_python_packages[@]}
         ;;
     opensuse|opensuse-leap|opensuse-tumbleweed|sles)
